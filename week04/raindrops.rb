@@ -16,7 +16,7 @@ def raindrops number
 
   # factor of 3
   raindrops_str += "Pling" if number % 3 == 0
-  #factor of 5
+  # factor of 5
   raindrops_str += "Plang" if number % 5 == 0
   # factor of 7
   raindrops_str += "Plong" if number % 7 == 0
