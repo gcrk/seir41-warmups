@@ -24,6 +24,9 @@ const sumSquares = function (squares = 64){
 }
 console.log(`Total grains on the 64 squares: ${sumSquares()}`)
 
+
+//////////////////Binary Approach (Optional but fun)////////////////////////////
+
 const binOnSquare = function(square){
   return BigInt("0b1"+("0").repeat(square-1))
 }
